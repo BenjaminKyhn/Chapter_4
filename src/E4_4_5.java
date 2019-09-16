@@ -35,5 +35,10 @@ public class E4_4_5 {
         System.out.println((i + "").length());
         System.out.println((d + "").length());
 
+        System.out.printf("%,8d %,10.1f\n", 12345678, 12345678.263);
+        System.out.printf("%08d %08.1f\n", 1234, 5.63);
+        System.out.printf("%8d%8s%8.1f\n", 1234, "Java", 5.63);
+        System.out.printf("%-8d%-8s%-8.1f \n", 1234, "Java", 5.63);
+
     }
 }
