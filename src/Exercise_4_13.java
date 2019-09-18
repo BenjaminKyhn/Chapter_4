@@ -4,9 +4,9 @@ public class Exercise_4_13{
     public static void main(String args[]){
         Scanner input = new Scanner(System.in);
         System.out.println("Enter letter in the alphabet: ");
-        String hexString = input.nextLine();
+        String s = input.nextLine();
 
-        char ch = Character.toUpperCase(hexString.charAt(0));
+        char ch = Character.toUpperCase(s.charAt(0));
         if ('A' <= ch && ch <= 'Z'){
             System.out.print(ch + " is a ");
             switch(ch){
@@ -38,7 +38,7 @@ public class Exercise_4_13{
             }
         }
         else {
-            System.out.println(hexString.charAt(0) + " is an invalid input");
+            System.out.println(s.charAt(0) + " is an invalid input");
         }
     }
 }
