@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Exercise_4_13{
-    public static void main(String args[]){
+    public static void main(String [] args){
         Scanner input = new Scanner(System.in);
         System.out.println("Enter letter in the alphabet: ");
         String s = input.nextLine();

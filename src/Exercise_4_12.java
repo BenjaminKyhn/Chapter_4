@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Exercise_4_12{
-    public static void main(String args[]){
+    public static void main(String [] args){
         Scanner input = new Scanner(System.in);
         System.out.println("Enter a hex digit: ");
         String hexString = input.nextLine();

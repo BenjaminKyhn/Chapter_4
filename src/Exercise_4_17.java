@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Exercise_4_17{
-    public static void main(String args[]){
+    public static void main(String [] args){
         Scanner input = new Scanner(System.in);
         System.out.println("Enter a year: ");
         int year = input.nextInt();
@@ -11,7 +11,7 @@ public class Exercise_4_17{
         if ('A' <= month.charAt(0) && month.charAt(0) <= 'Z' ) {
             if (year % 4 == 0 && month.equals("Feb"))
                 System.out.print("February of " + year + " has 29 days");
-            {
+
                 switch (month) {
                     case "Jan":
                         System.out.println("January of " + year + " has 31 days");
@@ -50,7 +50,7 @@ public class Exercise_4_17{
                         System.out.println("December of " + year + " has 31 days");
                         break;
                 }
-            }
+
         }
         else
             System.out.println(month + " is not a correct month name");
