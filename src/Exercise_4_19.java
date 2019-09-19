@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Exercise_4_19{
     public static void main (String[] args) {
 
-        System.out.println("Enter the first 9 digits of an ISBN as integer: ");
+        System.out.println("Enter the first 9 digits of an ISBN as a string: ");
         Scanner input = new Scanner(System.in);
         String isbn = input.nextLine();
         int d1 = Integer.parseInt(isbn.substring(0,1));
